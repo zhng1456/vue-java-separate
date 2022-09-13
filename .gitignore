@@ -1,0 +1,14 @@
+target
+.DS_Store
+.idea
+*.iml
+athena.js
+athena.css
+admin.js
+admin.css
+
+.vscode/*
+.factorypath
+.project
+.classpath
+*.prefs
