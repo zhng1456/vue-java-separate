@@ -12,3 +12,7 @@ admin.css
 .project
 .classpath
 *.prefs
+
+node_modules
+package-lock.json
+dist
