@@ -88,5 +88,14 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
+  },
+  devServer: {
+    proxy: {
+      '/api/*': {
+        target: 'http://localhost:9090',
+        changeOrigin: true,
+        secure: false
+      }
+    }
   }
 }
