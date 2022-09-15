@@ -1,3 +1,7 @@
 server:
   port: 9090
   context-path: /
+
+spring:
+  freemarker:
+    suffix: .ftl

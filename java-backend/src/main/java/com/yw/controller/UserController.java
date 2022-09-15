@@ -20,6 +20,7 @@ public class UserController {
             user.setId(1);
             user.setName(String.format("name%s", i));
             user.setAddress(String.format("address%s", i));
+            user.setEmail(String.format("name%s@gmail.com", i));
             userList.add(user);
         }
         return userList;

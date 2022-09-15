@@ -26,6 +26,10 @@
         prop="address"
         label="address">
       </el-table-column>
+      <el-table-column
+        prop="email"
+        label="email">
+      </el-table-column>
     </el-table>
   </div>
 </template>
