@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@google-cloud/storage": "^6.5.0",
     "element-ui": "^2.15.10",
     "vue": "^2.5.2"
   },
